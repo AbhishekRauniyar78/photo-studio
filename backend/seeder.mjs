@@ -10,8 +10,8 @@ const seedAdmin = async () => {
   await Admin.deleteMany();
 
   await Admin.create({
-    email: "anoopkumar6644@gmail.com",
-    password: "123456"
+    email: "@gmail.com",
+    password: "PASS"
   });
 
   console.log("Admin Created");
